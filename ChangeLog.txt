@@ -1,0 +1,7 @@
+12/2/2017 9:54 -
+	1.) Set up amazon AWS EC2 
+	2.) Installed Apache
+	3.) Installed php
+	4.) Installed updates
+	5.) Refreshed server instance
+	6.) Tested http calls
