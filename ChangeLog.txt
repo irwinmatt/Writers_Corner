@@ -1,7 +1,10 @@
-12/2/2017 9:54 -
+12/2/2017 9:54 PM -
 	1.) Set up amazon AWS EC2 
 	2.) Installed Apache
 	3.) Installed php
 	4.) Installed updates
 	5.) Refreshed server instance
 	6.) Tested http calls
+12/3/2017 2:34 AM
+	1.) Set up SQL server
+	2.) Added logo to page
