@@ -15,7 +15,7 @@
   <div id="wrap">
   <div id="regbar">
     <div id="navthing">
-      <h2><a href="#" id="loginform">Login</a> | <a href="#">Register</a></h2>
+      <h2><a href="#" id="loginform">Login</a> | <a href="#" id="registerform">Register</a></h2>
     <div class="login">
       <div class="arrow-up"></div>
       <div class="formholder">
@@ -27,6 +27,26 @@
              <label name="password">Password</label>
              <input type="password" name="password" />
              <input type="submit" value="Login" />
+           </fieldset>
+	</form>
+        </div>
+      </div>
+    </div>
+	<div class="register">
+      <div class="arrow-up"></div>
+      <div class="formholder">
+        <div class="randompad">
+	<form action="http://ec2-18-217-87-83.us-east-2.compute.amazonaws.com/WritersCorner.php" method="GET">
+           <fieldset>
+             <label name="email">Email</label>
+             <input type="email" name="email" value="example@example.com" />
+			 <label name="name">Name</label>
+             <input type="name" name="name" value="Jane Doe" /><br></br>
+             <label name="password">Password</label>
+             <input type="password" name="password" />
+			 <label name="password">Re-enter Password</label>
+             <input type="password" name="repassword" />
+             <input type="submit" value="Register" />
            </fieldset>
 	</form>
         </div>
