@@ -19,11 +19,40 @@ body {
 .center{
   position:absolute;
   top:37%;
-  left:7%;
+  left:6%;
+}
+	
+.button {
+  background-color: #3498DB;
+  color: white;
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.add-me{
+    margin-right : 30%;
+} 
+
+.small-btn {
+width: 50px;
+height: 25px;
+}
+
+.medium-btn {
+width: 70px;
+height: 30px;
+}
+
+.big-btn {
+width: 90px;
+height: 40px;
 }
 
 #wrap {
-  margin: 0 auto 30px;
+margin: 0 auto 30px;
 }
 
 #regbar {
